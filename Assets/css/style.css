@@ -3,7 +3,8 @@
     padding: 0;
     margin: 0;
 }
-
+/* ^Universal selector giving the whole page a padding and margin of zero and telling the page to include padding and margin when changing other elements width with styling. */
+/* This changes the full pages backround color to an off whtite color. */
 body {
     background-color: #d9dcd6;
 }
@@ -16,9 +17,9 @@ li {
     display: inline;
     margin: 10px;
 }
-
+/* The following block off CSS effects the element assigned the class of header. The padding adds 20 pixels of space around the default setting. The font is set to be 'Trebuchet MS' with a color of white. The backround of this element is set to blue. */
 .header {
-    padding: 20px;
+    padding: 20px; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -28,11 +29,11 @@ li {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Gives the 'seo' portion of the brand name 'Horiseon' a different color because the span around 'seo' in HTML is given the class of 'seo'. It also seems deleting the 'header' class selector and 'h1' portion of the seletor can be deleted to give the same effect. */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Gives padding and margin properties to  */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,7 +41,7 @@ li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* This takes the bullets off of the unordered list in the nav bar.*/
 .header div ul {
     list-style-type: none;
 }
@@ -58,7 +59,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* Gives size properties to the 'hr' element and sets the image used in the backround of the space. */
 .hero {
     height: 800px;
     width: 100%;
@@ -67,7 +68,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* The following two blocks of CSS tells the images to move to the right or left of the text by 25 pixels respectively. */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -77,13 +78,13 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* This allows the main content to give 25% of the screen space to the asides and also allows for the asides to be displayed beside the main content. It also pushes it to the right by 25 pixels. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Gives the section containing the asides directional and spacial features as well as a new font family and slightly different backing color. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -94,7 +95,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* The next few 'benefit-' class selectors puts space at the bottom of each icon and makes the font of each white. */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -109,7 +110,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* The following effect the headers of each aside by telling them to be in the center of the element and and have 10 pixels of space under them. */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -124,7 +125,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* The following tell the images in the specified class to display stacked on top of the text in the aside and gives it margin properties to make them more presentable. */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -142,7 +143,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* The following target the 'article' elements and essentially creates the layout seen on the webpage. Each is uniform with one another in size and text styling. */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -169,7 +170,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* The following target the images within each article giving them a max height of 200 pixels. */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -181,7 +182,7 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* The following target the titles within each 'article' and makes them over double the natural font size and gives spacing beneath each of them. */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -196,7 +197,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* This gives the footer a padding of thirty within the 'footer' element. It designates the text font to be 'Trebuchet MS' and to appear in the center of the element. */
 .footer {
     padding: 30px;
     clear: both;
@@ -204,6 +205,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
