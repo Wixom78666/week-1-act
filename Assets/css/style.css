@@ -7,6 +7,15 @@
 body {
     background-color: #d9dcd6;
 }
+/* When I changed the 'div' which is now represented by 'nav', I used these element selectors (ul,il) to place those elements back on the right side of the screen, inline, and with separtation between items. */
+ul{
+    text-align: right;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
 
 .header {
     padding: 20px;
